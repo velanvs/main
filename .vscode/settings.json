@@ -1,0 +1,24 @@
+{
+    "idf.pythonInstallPath": "C:\\Espressif\\tools\\idf-python\\3.11.2\\python.exe",
+    "idf.customExtraVars": {
+        "IDF_TARGET": "esp32"
+    },
+    "idf.openOcdConfigs": [
+        "board/esp32-wrover-kit-3.3v.cfg"
+    ],
+    "idf.flashType": "UART",
+    "idf.portWin": "COM5",
+    "files.associations": {
+        "led_strip.h": "c",
+        "stdio.h": "c",
+        "freertos.h": "c",
+        "netdb.h": "c",
+        "task.h": "c",
+        "avt_app.h": "c",
+        "wifi_station.h": "c",
+        "common.h": "c",
+        "random": "c",
+        "stdint.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "enabled"
+}
